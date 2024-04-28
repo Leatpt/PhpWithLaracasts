@@ -9,7 +9,9 @@
 
     <h1>
         <?php
-            echo "Hello, World";
+            $greeting = "Hello";
+            $subject = "Universe";
+            echo "$greeting $subject"
         ?>
     </h1>
 
