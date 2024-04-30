@@ -1,5 +1,3 @@
 <?php 
 
-
-
-require "index.view.php"; //require, think load -> load the view...
+require "views/index.view.php"; //require, think load -> load the view...
