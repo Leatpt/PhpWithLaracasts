@@ -1,34 +1,5 @@
 <?php 
 
-$books = [
-    [
-        'name' => 'Do Androids Dream of Electric Sheep', 
-        'author' => 'Philip K. Dick',
-        'releaseYear' => 1968,
-        'purchaseUrl' => 'http://example.com'
-    ],
-    [
-        'name' => 'The Langoliers', 
-        'author' => 'Stephen King',
-        'releaseYear' => 1990,
-        'purchaseUrl' => 'http://example.com'
-    ],
-    [
-        'name' => 'Hail Mary', 
-        'author' => 'Andy Weir',
-        'releaseYear' => 2021,
-        'purchaseUrl' => 'http://example.com'
-    ],
-    [
-        'name' => 'The Martian', 
-        'author' => 'Andy Weir',
-        'releaseYear' => 2011,
-        'purchaseUrl' => 'http://example.com'
-    ],
-];
 
-$filteredItems = array_filter($books, function ($book) {
-    return $book['releaseYear'] > 1950 && $book['releaseYear'] < 2020;
-});
 
 require "index.view.php"; //require, think load -> load the view...
