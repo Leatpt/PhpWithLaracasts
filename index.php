@@ -1,7 +1,11 @@
-<?php 
+<?php
 
 require 'functions.php';
 
-$heading = "Home";
+$uri = $_SERVER['REQUEST_URI'];
 
-require "views/index.view.php"; //require, think load -> load the view...
+if ($uri === '/') {
+    require 'controllers/index.php';
+} else if ($uri === '/about') {
+    require 'controllers/about.php';
+}
