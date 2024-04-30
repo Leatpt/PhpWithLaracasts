@@ -1,6 +1,6 @@
 <?php 
 
-require "funtions.php";
+require 'functions.php';
 
 $heading = "About Us";
 
